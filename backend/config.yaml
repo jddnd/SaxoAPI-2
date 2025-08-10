@@ -1,0 +1,17 @@
+saxo:
+  base_url: https://gateway.saxobank.com/sim/openapi
+  client_id: 37d9b70d81604dc89321f4ac2a659a00
+  client_secret: 19d9d1fbde384d2aa707a21dc59534bf
+  redirect_uri: http://localhost/callback
+  access_token: eyJhbGciOiJFUzI1NiIsIng1dCI6IjI3RTlCOTAzRUNGMjExMDlBREU1RTVCOUVDMDgxNkI2QjQ5REEwRkEifQ.eyJvYWEiOiI3Nzc3MCIsImlzcyI6Im9hIiwiYWlkIjoiNjczMyIsInVpZCI6ImdNdkdlNVZNbnFYZnA3anZFS2c4R0E9PSIsImNpZCI6ImdNdkdlNVZNbnFYZnA3anZFS2c4R0E9PSIsImlzYSI6IkZhbHNlIiwidGlkIjoiMTE3NjAiLCJzaWQiOiI4YmVmNWNhZDc1ZWQ0MzE4YWJhNGRlYjAwODQwNzQ5NiIsImRnaSI6Ijg0IiwiZXhwIjoiMTc1NDg0MjY3MyIsIm9hbCI6IjFGIiwiaWlkIjoiNzVlMGQ2YmU4NWJmNDU2MzA5NDgwOGRkY2Y2ODJiMmUifQ.dAvVLlw9iels1tgoA2pq4mkROOXQYYlkLrxralru4J7EXUK5fSl-6K9WdG2oDTJcfyrxM_EHKC8lC4DzJAjtXw
+  refresh_token: 55fb3f11-9325-4ef3-b62d-95aaebf0f196
+  account_key: gMvGe5VMnqXfp7jvEKg8GA==
+risk:
+  max_spread_pct: 0.5
+  min_oi: 50
+  min_volume: 10
+  default_qty: 1
+  tp_pct: 1.0
+  sl_pct: 0.5
+security:
+  tv_shared_secret: mySuperSecretKey123
